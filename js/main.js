@@ -17,7 +17,7 @@ var GAME_CONTAINER_ID = 'gameDiv';
 
 function preload(){
 	game.load.image('background', 'assets/imgres.jpg');
-	game.load.image('player', 'assets/images.png');
+	game.load.image('player', 'assets/plane.png');
 	game.stage.backgroundColor='#8aa8d1';
 	game.load.image('ground', 'assets/wallHorizontal.png');
 	game.load.image('obstacle', 'assets/wallVertical.png');
